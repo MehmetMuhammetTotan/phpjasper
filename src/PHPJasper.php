@@ -84,7 +84,7 @@ class PHPJasper
      */
     private function checkServer()
     {
-        return $this->command = $this->windows ? $this->executable : './' . $this->executable;
+        return $this->command = $this->windows ? $this->executable : '/bin/jasperstarter/bin/' . $this->executable;
     }
 
     /**
